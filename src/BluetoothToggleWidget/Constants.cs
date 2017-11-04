@@ -24,9 +24,9 @@ using System;
 
 namespace BluetoothToggleWidget
 {
-  public class Constants
-  {
-    public const string APP_NAME = "BTToggleWidget";
-  }
+    public class Constants
+    {
+        public const string APP_NAME = "BTToggleWidget";
+    }
 }
 

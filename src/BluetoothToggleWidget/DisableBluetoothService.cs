@@ -24,20 +24,20 @@ using Android.Widget;
 
 namespace BluetoothToggleWidget
 {
-  [Service]
-  class DisableBluetoothService : IntentService
-  {
-    public DisableBluetoothService() : base("DisableBluetoothService")
+    [Service]
+    class DisableBluetoothService : IntentService
     {
-      
-    }
+        public DisableBluetoothService() : base("DisableBluetoothService")
+        {
 
-    protected override void OnHandleIntent(Intent intent)
-    {
-      Log.Info(Constants.APP_NAME, "Received request to disable bluetooth");
-      BluetoothAdapter.DefaultAdapter.Disable();
-    }
+        }
 
-  }
+        protected override void OnHandleIntent(Intent intent)
+        {
+            Log.Info(Constants.APP_NAME, "Received request to disable bluetooth");
+            BluetoothAdapter.DefaultAdapter.Disable();
+        }
+
+    }
 
 }
