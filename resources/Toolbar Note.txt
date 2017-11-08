@@ -1,0 +1,13 @@
+Toolbar size 444 x 107 (w x h)
+
+In order from left to right
+Wifi on/off 87 x 107
+Bluetooth on/off 91 x 107
+Location on/off 87 x 107
+Screen Rotaion on/off 91 x 107
+Auto-Brightness on/off 88 x 107
+
+Special: if the Wifi is turn on but there is no signal (yet) => Wifi-no signal 87 x 107
+
+Various example of screenshot for assemble the tool bar
+Thank you for reading <3
